@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    
+    printf("Hello World\n");    /*stampa la stringa e va a capo*/
+
+    char* ps;                   /*puntatore ad una locazione di memoria che contiene un carattere*/
+    float** m;                  /*puntatore ad una locMem che contiene una locMem che contiene un float*/
+    float v[42];                /*array di 42 float*/
+    float v2[];                 /*array di float di dimensione non specificata*/
+    float m2[42][];             /*array di 42 arrays di dimensione non specificata*/
+    int (*pf) (int*, float*);   /*puntatore ad una funzione che accetta un puntatore ad
+                                un int e un puntatore ad un float e che ritorna un intero*/
+}
