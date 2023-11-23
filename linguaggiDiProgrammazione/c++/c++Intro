@@ -1,0 +1,10 @@
+
+//#include <iostream>
+
+//int main(){
+    
+//    std::cout << "Hello World" << std::end1 /*stampa la stringa vuota << aggiunge la stringa << aggiunge il carattere \n */
+
+//    int x = 42;     /*un intero*/
+//    int rx = x;     /*una referenza ad un intero x*/
+//}
