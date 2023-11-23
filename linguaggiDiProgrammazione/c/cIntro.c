@@ -23,6 +23,12 @@ int main(){
     struct polar_complex d = {0,0};
     float e = d.magnitude; //assegno 0 a e
 
+
+    //dichiaro una nuova persona
+    //struct persona p1 = {"Salvatore Montalbano", 42, "Catarella"};
+
+    
+
     //PUNTATORI
     /*dato un qualunque tipo T, T* è il tipo "puntatore a T" */
     int x = 43;
@@ -33,3 +39,19 @@ int main(){
     int v[] = {1, 2, 3, 4};
     int* p1 = v;
 }
+
+//STRUTTURE
+struct persona{
+    char nome[80];
+    int eta;
+    char assistente_fidato[80];
+} p = {"Salvo Montalbano", 42, "Catarella"};
+
+//METODO STAMPA PERSONA
+void stampa_persona(struct persona* x){
+        printf("Persona '%s' '%s' %d\n",
+            (*x).nome,
+            x->assistente_fidato,
+            x->eta);
+        /* operatore p->q è un'abbreviazione di (*p).q */
+    }
